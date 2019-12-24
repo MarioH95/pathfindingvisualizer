@@ -1,0 +1,88 @@
+body {
+    background-color: b#2d2e2e;
+}
+
+.grid {
+    background-color: white;
+}
+
+.headerButton {
+    margin: 20px;
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #20bf6b !important;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.headerButton:hover{
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    }
+
+.headerContainer {
+    margin-bottom:20px;
+    height: 100px;
+    background-color: #2d2e2e;
+    display:flex;
+    justify-content: center;
+}
+
+.bodyContainer {
+    display:flex;
+}
+
+.rowContainer {
+    margin:0;
+    display:flex;
+    justify-content:center;
+    flex-grow:5;
+}
+
+.informationContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.informationWrapper {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.description {
+    text-transform: uppercase;
+    color: #20bf6b;
+}
+
+.instructions {
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #20bf6b;
+}
+
+#greenBox {
+    margin-right:20px;
+    height:50px;
+    width:50px;
+    background-color: #20bf6b;
+}
+
+#blueBox {
+    margin-right:20px;
+    height:50px;
+    width:50px;
+    background-color: #20bfb7;
+}
+
+#grayBox {
+    margin-right:20px;
+    height:50px;
+    width:50px;
+    background-color: rgb(12, 53, 71);
+}
